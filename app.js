@@ -5,7 +5,7 @@ angular.module('LunchCheck', [])
 
 .controller('LunchCheckController', function ($scope) {
   $scope.lunchmenu = "";
-  $scope.lunchresult = "";
+  $scope.lunchresult = " ";
 
   $scope.checkmenu = function () {
     var lunchresultout = determineresult($scope.lunchmenu);
